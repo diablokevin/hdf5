@@ -1,6 +1,6 @@
 <template>
   <el-menu
-      default-active="filechoose"
+      default-active="$router.currentRoute.name"
       class="el-menu-vertical"
       @open="handleOpen"
       @close="handleClose"
@@ -18,11 +18,11 @@
       <i class="el-icon-document"></i>
       <template #title>选择文件</template>
     </el-menu-item>
-    <el-menu-item index="about">
+    <el-menu-item index="hdf5data">
       <i class="el-icon-menu"></i>
       <template #title>数据分析</template>
     </el-menu-item>
-    <el-menu-item index="3">
+    <el-menu-item index="parameter">
       <i class="el-icon-video-play"></i>
       <template #title>译码参数</template>
     </el-menu-item>

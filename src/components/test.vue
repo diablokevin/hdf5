@@ -1,14 +1,10 @@
 <template>
-  <el-menu
-      class="el-menu-vertical-demo">
-
-
-  </el-menu>
+<div>test</div>
 </template>
 
 <script>
 export default {
-  name: "MyMenu"
+  name: "test"
 }
 </script>
 

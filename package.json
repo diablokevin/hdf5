@@ -10,10 +10,13 @@
   "dependencies": {
     "@element-plus/icons": "^0.0.11",
     "axios": "^0.22.0",
+    "codemirror": "^5.63.3",
     "core-js": "^3.6.5",
+    "echarts": "^5.2.1",
     "element-plus": "^1.0.2-beta.28",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
+    "vue-codemirror": "^4.0.6",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },

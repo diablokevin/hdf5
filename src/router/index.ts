@@ -25,6 +25,17 @@ const routes: Array<RouteRecordRaw> = [
     name: 'flightselect',
     component: () => import('../views/FlightSelect.vue')
   }
+  ,
+    {
+    path: '/hdf5data',
+    name: 'hdf5data',
+    component: () => import('../views/Hdf5Data.vue')
+  } ,
+    {
+    path: '/parameter',
+    name: 'parameter',
+    component: () => import('../views/Parameter.vue')
+  }
 ]
 
 const router = createRouter({
