@@ -11,42 +11,50 @@
       active-text-color="#ffd04b"
   >
      <el-menu-item index="flightselect">
-      <i class="el-icon-s-flag"></i>
-      <template #title>航班数据</template>
+
+
+  <el-icon :size='20'><Flag /></el-icon>
+      <template #title>  航班数据</template>
     </el-menu-item>
     <el-menu-item index="filechoose">
-      <i class="el-icon-document"></i>
+      <el-icon :size='20'><Document /></el-icon>
       <template #title>选择文件</template>
     </el-menu-item>
     <el-menu-item index="hdf5data">
-      <i class="el-icon-menu"></i>
+      <el-icon :size='20'><Menu /></el-icon>
       <template #title>数据分析</template>
     </el-menu-item>
     <el-menu-item index="parameter">
-      <i class="el-icon-video-play"></i>
+      <el-icon :size='20'><video-play /></el-icon>
       <template #title>译码参数</template>
     </el-menu-item>
     <el-menu-item index="4" >
-      <i class="el-icon-edit"></i>
+      <el-icon :size='20'><edit /></el-icon>
       <template #title>代码编辑</template>
     </el-menu-item>
     <el-menu-item index="5">
-      <i class="el-icon-setting"></i>
+      <el-icon :size='20'><setting /></el-icon>
       <template #title>账户设置</template>
     </el-menu-item>
 
     <el-menu-item index="6" disabled>
-      <i class="el-icon-box"></i>
+      <el-icon :size='20'><box /></el-icon>
       <template #title>其他功能</template>
     </el-menu-item>
 
   </el-menu>
+       <el-icon><edit /></el-icon>
 </template>
 
 <script lang="ts">
 import {defineComponent, ref} from 'vue'
+import {Edit} from  '@element-plus/icons'
+
 
 export default defineComponent({
+  component:{
+    Edit
+},
   setup() {
     const isCollapse = ref(true)
     const handleOpen = (key: any, keyPath: any) => {

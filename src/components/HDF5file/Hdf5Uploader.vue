@@ -5,8 +5,7 @@
     :action="action_path"
     multiple
     :before-upload="beforeFileUpload">
-  >
-    <i class="el-icon-upload"></i>
+  <el-icon class="el-icon--upload"><upload-filled /></el-icon>
     <div class="el-upload__text">
       拖拽文件或者 <em>点击上传</em>
     </div>

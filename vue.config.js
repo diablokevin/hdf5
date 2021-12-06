@@ -1,4 +1,5 @@
 module.exports = {
   outputDir: '../dist',
-  assetsDir: 'static'
+  assetsDir: 'static',
+  lintOnSave:false
 }
