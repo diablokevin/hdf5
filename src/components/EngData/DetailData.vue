@@ -56,9 +56,9 @@ export default {
 
   },
   created() {
-    // for (let i = 0; i < 5001; i++) {
-    //   this.tableData.push({ index: i });
-    // }
+    for (let i = 0; i < 50001; i++) {
+      this.tableData.push({ index: i });
+    }
 
   },
   methods: {
